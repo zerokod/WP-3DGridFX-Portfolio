@@ -1,0 +1,63 @@
+/*  ---------------------------------------------------------------
+    general style
+    --------------------------------------------------------------- */
+
+/* apply a natural box layout model to all elements  - http://www.paulirish.com/2012/box-sizing-border-box-ftw/*/
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+ }
+
+*:focus {
+    outline: 0;
+}
+
+::-moz-focus-inner { padding:0; border:0 }  /* ! removes focus line */
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+}
+
+/*  END - general style */
+
+
+/* style for Cube Portfolio wrapper*/
+.wrapper {
+    width: 96%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+section, .grid, .grid-container{
+    
+    height: 1000px!important;
+}
+
+.cbp {
+   
+    height: 1000px;
+   
+}
+
+.wp-core-ui .button-primary-delete, .wp-core-ui .button-primary-modify{
+	display:inline-block;text-decoration:none;font-size:13px;line-height:26px;height:28px;margin:0;padding:0 10px 1px;cursor:pointer;border-width:1px;border-style:solid;-webkit-border-radius:3px;-webkit-appearance:none;border-radius:3px;white-space:nowrap;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+	
+	}
+	
+	.container {
+    width: 100%!important;
+    padding: 0;
+}
+
+div.fadin {
+    -webkit-transition: .4s ease-in-out opacity;
+    -moz-transition: .4s ease-in-out opacity;
+    -o-transition: .4s ease-in-out opacity;
+    transition: .4s ease-in-out opacity;
+}
+
+div.fadin:hover {
+    opacity: 0.8;
+}
